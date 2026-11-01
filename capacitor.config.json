@@ -1,0 +1,12 @@
+{
+  "appId": "com.vopgram.app",
+  "appName": "Vopgram",
+  "webDir": "public",
+  "server": {
+    "url": "https://5991805521be7fba-31-129-78-160.serveousercontent.com",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

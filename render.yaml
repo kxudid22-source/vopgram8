@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: vopgram
+    env: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_PASSWORD
+        value: "7533"
+      - key: APP_URL
+        sync: false
